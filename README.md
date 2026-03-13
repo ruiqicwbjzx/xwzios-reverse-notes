@@ -7,12 +7,14 @@ iOS 逆向分析报告合集。包含 IDA 静态分析、验证逻辑分析、Th
 | App | 分析报告 | 验证方式 | 状态 |
 |---|---|---|---|
 | Python IDE (app.pythonide) | [Pythonide.md](reports/Pythonide.md) | 本地 Keychain | ✅ 已破解 |
+| 星云加速器 (nbiosapp) | [Nebula-nbiosapp.md](reports/Nebula-nbiosapp.md) | 本地状态码 + RSA 解密 | ✅ 已破解 |
 
 ## 工具
 
 | 工具 | 路径 | 说明 |
 |---|---|---|
 | TG 上传工具 | [tools/tg-upload/](tools/tg-upload/) | 分析报告自动上传到 Telegram 频道 |
+| 星云解密脚本 | [tools/nebula-decrypt/](tools/nebula-decrypt/) | nbiosapp API 响应 RSA 解密 |
 
 ## 工具链
 
